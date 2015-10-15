@@ -3,12 +3,18 @@ header
     height: 866px;
 
     text-align: center;
-
-    background: #adadad;
 }
 
 header .container {
-    height: 866px;
+    padding-top: 400px;
+    height: 466px;
+    z-index: 10;
+    color: #fff;
+    font-family: "Courier New", sans-serif;
+    font-size: 60px;
+    font-weight: 600;
+
+
 }
 
 .section__video {
@@ -16,6 +22,7 @@ header .container {
 
     background-size: cover;
     color: #fff;
+
 }
 
 .video__case {
@@ -26,6 +33,7 @@ header .container {
     top: 0;
     text-align: center;
     overflow: hidden;
+    z-index: -1;
 }
 
 .video-main {
