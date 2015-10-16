@@ -312,6 +312,12 @@
             eventType : "click"
         });
     </script>
+    <script>
+        $('.video-main').addEventListener('canplay', function(e) {
+
+        this.play();
+        }, false );
+    </script>
 
     <audio class="audioPlayer" controls loop autoplay>
         <source src="media/music_cut.ogg" type="audio/ogg">
