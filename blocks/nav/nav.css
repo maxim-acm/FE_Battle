@@ -17,6 +17,13 @@
 }
 
 .navbar-nav {
-
     text-transform: uppercase;
+}
+
+.smartCodeLogo{
+    fill: #777;
+}
+
+.smartCodeLogo:hover{
+    fill: #333;
 }
