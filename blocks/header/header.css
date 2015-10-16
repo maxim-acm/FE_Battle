@@ -15,12 +15,16 @@ header .container {
     font-weight: 600;
 
 
+
 }
 
 .section__video {
     height: 866px;
     background-size: cover;
     color: #fff;
+    -background-color: #b2dba1;
+    position: relative;
+
 }
 
 
@@ -44,9 +48,31 @@ header .container {
 
 }
 
-svg.logo{
+
+.svg-logo{
+    -background-color: #1b6d85;
     padding-top: 0;
     fill: white;
-    width: 33%;
+    width: 100%;
+    display: block;
+    position: absolute;
+    top:25%;
+
+}
+
+.svg-logo > svg{
+    width: 30%;
+}
+
+
+.svg-redesignText{
+    -background-color: #3b850d;
+
+    display: block;
+    fill: rgba(227, 227, 227, 0.65);
+    width: 100%;
+    position: absolute;
+    bottom:0;
+    border:none;
 
 }
