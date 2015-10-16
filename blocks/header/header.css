@@ -6,7 +6,7 @@ header
 }
 
 header .container {
-    padding-top: 400px;
+    padding-top: 325px;
     height: 466px;
     z-index: 10;
     color: #fff;
@@ -19,11 +19,11 @@ header .container {
 
 .section__video {
     height: 866px;
-
     background-size: cover;
     color: #fff;
-
 }
+
+
 
 .video__case {
     position: absolute;
@@ -41,5 +41,12 @@ header .container {
     width: auto;
     height: auto;
     min-width: 100%;
+
+}
+
+svg.logo{
+    padding-top: 0;
+    fill: white;
+    width: 33%;
 
 }
