@@ -1,7 +1,13 @@
 footer
 {
-    background: #adadad;
+    background: #673AB7;
+    color: #fff;
 }
+
+.copyright-box {
+    padding-bottom: 10px;
+}
+
 
 footer h3
 {
@@ -20,15 +26,21 @@ footer h3
     width: 50px;
     height: 50px;
 
-    color: #000;
-    border: 2px solid #000;
+    color: #fff;
+    border: 2px solid #fff;
     border-radius: 100%;
+
+    -webkit-transition: all 0.35s;
+    -moz-transition: all 0.35s;
+    -ms-transition: all 0.35s;
+    -o-transition: all 0.35s;
+    transition: all 0.35s;
 }
 
 .btn-outline:hover
 {
-    color: #fff;
-    border-color: #fff;
+    color: #FF5252;
+    border-color: #FF5252;
 }
 
 .box-social
