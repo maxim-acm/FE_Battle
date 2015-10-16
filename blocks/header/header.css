@@ -5,7 +5,7 @@ header
     text-align: center;
 }
 
-header .container {
+.header__content {
     padding-top: 400px;
     height: 466px;
     z-index: 10;
