@@ -30,6 +30,16 @@
     <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
 
     <![endif]-->
+<script type="text/javascript">
+	var ypos,image;
+	function parallex() {
+		image = document.getElementById('image');
+		ypos = window.pageYOffset;
+		image.style.top = ypos * .7+ 'px';
+	}
+	window.addEventListener('scroll', parallex),false;
+
+</script>
 
 </head>
 <body>
@@ -52,7 +62,6 @@
                         <a href="#page-top"></a>
                     </li>
                     <li class="page-scroll">
-<<<<<<< HEAD
                         <a href="#portfolio" class="page-scroll audioHover audioClick">Portfolio</a>
                     </li>
                     <li class="page-scroll">
@@ -60,15 +69,6 @@
                     </li>
                     <li class="page-scroll">
                         <a href="#contact" class="page-scroll audioHover audioClick">Contact</a>
-=======
-                        <a href="#portfolio" class="page-scroll audioHover audioClick menu-item">Portfolio</a>
-                    </li>
-                    <li class="page-scroll">
-                        <a href="#about" class="page-scroll audioHover audioClick menu-item">About</a>
-                    </li>
-                    <li class="page-scroll">
-                        <a href="#contact" class="page-scroll audioHover audioClick menu-item">Contact</a>
->>>>>>> a2eb4ce8d4d96272dce9b5db1233319207f6d0f2
                     </li>
                 </ul>
             </div>
@@ -87,7 +87,7 @@
             </div>
         </div>
 
-        <div class="video__case">
+        <div id="image" class="video__case">
             <video class="video-main" width="100%" height="auto" autoplay="autoplay" loop="loop" preload="auto">
                 <source src="media/big.mp4">
             </video>
