@@ -14,3 +14,10 @@ textarea.form-control
 {
     height: 40px;
 }
+
+.svg-divider{
+    display: block;
+    margin: 0 auto 0 auto;
+    height: 20px;
+    fill: #cccccc;
+}

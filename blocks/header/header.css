@@ -48,31 +48,12 @@ header .container {
 
 }
 
-
-.svg-logo{
-    -background-color: #1b6d85;
-    padding-top: 0;
-    fill: white;
-    width: 100%;
-    display: block;
-    position: absolute;
-    top:25%;
-
-}
-
-.svg-logo > svg{
-    width: 30%;
-}
-
-
 .svg-redesignText{
-    -background-color: #3b850d;
-
     display: block;
-    fill: rgba(227, 227, 227, 0.65);
+    fill: rgba(219, 219, 219, 0.71);
     width: 100%;
     position: absolute;
-    bottom:0;
+    bottom:35%;
     border:none;
 
 }

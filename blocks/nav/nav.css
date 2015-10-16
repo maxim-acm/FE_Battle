@@ -12,3 +12,12 @@
     padding: 0;
     opacity: 0.8;
 }
+
+
+.smartCodeLogo{
+    fill: #777;
+}
+
+.smartCodeLogo:hover{
+    fill: #333;
+}
