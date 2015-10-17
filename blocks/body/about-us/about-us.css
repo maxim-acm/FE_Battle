@@ -1,36 +1,47 @@
-.about-us {
-    padding: 80px 0 50px 0;
+.about-us
+{
+    padding: 80px 0 30px 0;
 }
 
-.about__description {
+.about__description
+{
     font-size: 16px;
 }
 
-.section-heading {
-    margin-top: 0;
-    margin-bottom: 28px;
+.section-heading
+{
     font-size: 36px;
     font-weight: 300;
     line-height: 1.45;
+
+    margin-top: 0;
+    margin-bottom: 28px;
 }
 
-.section-line {
+.section-line
+{
     width: 80px;
     height: 2px;
     margin: 30px auto;
+
     background: #111 none repeat scroll 0 0;
 }
 
-.section-text {
+.section-text
+{
     font-size: 18px;
     font-weight: 300;
-    color: #777;
     line-height: 1.7778;
+
+    color: #777;
 }
 
-.svg-divider{
+.svg-divider
+{
     display: block;
-    margin: 15px auto;
+
     height: 20px;
-    fill: #cccccc;
+    margin: 15px auto;
+
+    fill: #ccc;
 }

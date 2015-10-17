@@ -3,27 +3,43 @@
 {
     padding: 20px 0;
 
-    opacity: 0.9;
-
     -webkit-transition: padding .3s;
        -moz-transition: padding .3s;
             transition: padding .3s;
+
+    opacity: .9;
+    background-color: #fff;
 }
 
 .navbar-fixed-top.smaller
 {
     padding: 0;
-    opacity: 0.7;
+
+    opacity: .7;
 }
 
-.navbar-nav {
+
+.navbar-nav
+{
     text-transform: uppercase;
 }
 
-.smartCodeLogo{
+.smartCodeLogo
+{
     fill: #777;
 }
 
-.smartCodeLogo:hover{
+.smartCodeLogo:hover
+{
     fill: #333;
+}
+
+.nav-elem:hover
+{
+    background-color: #b2dfdb !important;
+}
+
+.nav-elem:active
+{
+    background-color: #ffc107 !important;
 }
