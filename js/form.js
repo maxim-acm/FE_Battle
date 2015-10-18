@@ -43,23 +43,46 @@ function getRegistrationFormData() {
 function validaRegistrationData(formData) {
     var validationRules = {
         name: function(value) {
+            var hasOnlyLetters = /([A-Za-z])+/g;
             if (!value) {
                 return 'Please enter your name.';
             }
+
+            if (value !== hasOnlyLetters) {
+                return 'Name must have only letters';
+            };
         },
         email: function(value) {
+            var encorrectEmail = /^(([^<>()[\]\.,;:\s@\"]+(\.[^<>()[\]\.,;:\s@\"]+)*)|(\".+\"))@(([^<>()[\]\.,;:\s@\"]+\.)+[^<>()[\]\.,;:\s@\"]{2,})$/i;
             if (!value) {
                 return 'Please enter your email address.';
             }
+
+            else if (!encorrectEmail.test(value)) {
+
+                return 'Incorrect Email';
+            };
         },
         phone: function(value) {
+            var correctNumber = /^[\+]?[(]?[0-9]{3}[)]?[-\s\.]?[0-9]{3}[-\s\.]?[0-9]{4,6}$/im;
             if (!value) {
                 return 'Please enter your phone number.';
             }
+
+            if (!correctNumber.test(value)) {
+                return 'Incorrect phone number';
+            }
         },
         message: function(value) {
+
+            var noScript = /<script[\s\S]*?>/g;
             if (!value) {
                 return 'Please enter a message.';
+            }
+
+            if (noScript.test(value)) {
+
+                return 'Error text';
             }
 
         }
